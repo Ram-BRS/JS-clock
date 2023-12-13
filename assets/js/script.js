@@ -48,6 +48,7 @@ function setTheme(theme) {
   localStorage.setItem("movie-theme", theme);
 }
 setTheme(localStorage.getItem("movie-theme") || chathams_blue);
+
 function updateDateTime() {
   var currentDate = new Date();
   var amAndPm = "PM";
